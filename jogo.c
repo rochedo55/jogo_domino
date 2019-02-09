@@ -1,5 +1,6 @@
 #include <stdio.h>
-#include <string.h>
+#include <stdlib.h>
+#include <time.h>
 
 int main(){
 
@@ -34,11 +35,10 @@ int main(){
 	for (double i=x;i<6;i++){
 		v6[i]=(6+(i/10));
 	}
-	/*for (int i=0;i<6;i++){
-		printf("%f\n",v1[i] );
-	}*/
-
-
+  int aleat = 1+(rand() %10);
+  int numjog;
+  printf("Numero de jogadores: %d",&numjog);
+  
 
 
 	return 0;
